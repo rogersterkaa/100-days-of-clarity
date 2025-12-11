@@ -1,0 +1,78 @@
+[project]
+name = '100-days-of-clarity'
+description = ''
+authors = []
+telemetry = true
+cache_dir = '.\.cache'
+requirements = []
+[contracts.artist-discography]
+path = 'contracts/artist-discography.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.clarity-basics-1]
+path = 'contracts/clarity-basics-1.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.clarity-basics-11]
+path = 'contracts/clarity-basics-11.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.clarity-basics-111]
+path = 'contracts/clarity-basics-111.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.clarity-basics-IV]
+path = 'contracts/clarity-basics-IV.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.clarity-basics-V]
+path = 'contracts/clarity-basics-V.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.clarity-basics-VI]
+path = 'contracts/clarity-basics-VI.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.community-hello-world]
+path = 'contracts/community-hello-world.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.nft-advance]
+path = 'contracts/nft-advance.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.nft-simple]
+path = 'contracts/nft-simple.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.offspring-will]
+path = 'contracts/offspring-will.clar'
+clarity_version = 3
+epoch = 'latest'
+
+[contracts.sip-09]
+path = 'contracts/sip-09.clar'
+clarity_version = 3
+epoch = 'latest'
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'
